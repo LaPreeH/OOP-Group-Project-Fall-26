@@ -77,7 +77,7 @@ Before submitting, verify that:
 * [ ] The `docs/` folder is included
 * [ ] All team members contributed through their own branches
 * [ ] All completed branches were merged into `main`
-* [ ] The Teaching Assistant has been added as a repository collaborator
+* [ ] The Professor has been added as a repository collaborator
 
 ---
 
