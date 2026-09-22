@@ -32,7 +32,7 @@ Team Members and Responsibilities
 | LaPree Habbit       | `feature-display` | Create the `printInventory()` method                                                |
 | Aayusha Ashikari    | `feature-restock` | Create the `restockItem()` method                                                   |
 | Zigme Tanzing Lama  | `feature-menu`    | Create the user menu and integrate the methods in `main()`                          |
-| Ryan Vollbrecht     | `feature-testing` | Test the program, check edge cases, and help resolve integration problems           |
+| Ryan Vollbrecht     | `feature-testing` | Test the program, check all possible cases and help resolve integration problems    |
 | Ankur Basnet        | `feature-docs`    | Add Javadoc comments, generate the `docs/` folder, and review project documentation |
 
 
