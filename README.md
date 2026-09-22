@@ -38,6 +38,9 @@ Team Members and Responsibilities
 
 Git Workflow
 
+Refer to the posting of "Assignment 1: Java program
+and collaboration" under the canvas modules for a better understanding of what your task is.
+
 Each team member should work on their assigned branch.
 
 Do not push unfinished work directly to the `main` branch.
