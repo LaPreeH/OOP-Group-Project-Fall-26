@@ -49,6 +49,11 @@ public class GroceryManagementSystem {
             System.out.println("3. Exit");
             System.out.print("Enter your choice: ");
 
+            while (!input.hasNextInt()) {
+                System.out.print("Invalid input. Please enter 1, 2, or 3: ");
+                input.nextLine();
+            } 
+
             int choice = input.nextInt();
             input.nextLine();
 
@@ -61,6 +66,11 @@ public class GroceryManagementSystem {
                 String target = input.nextLine();
 
                 System.out.print("Enter amount to restock: ");
+                while (!input.hasNextInt()) {
+                    System.out.print("Invalid input. Please enter a whole number: ");
+                    input.nextLine();
+                }
+
                 int amount = input.nextInt();
                 input.nextLine();
 
