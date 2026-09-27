@@ -30,13 +30,16 @@ Team Members and Responsibilities
 | Team Member         | Branch            | Responsibility                                                                      |
 | -----------         | ----------------- | ----------------------------------------------------------------------------------- |
 | LaPree Habbit       | `feature-display` | Create the `printInventory()` method                                                |
-| Aayusha Ashikari    | `feature-restock` | Create the `restockItem()` method                                                   |
+| Aayusha Adhikari    | `feature-restock` | Create the `restockItem()` method                                                   |
 | Zigme Tanzing Lama  | `feature-menu`    | Create the user menu and integrate the methods in `main()`                          |
-| Ryan Vollbrecht     | `feature-testing` | Test the program, check edge cases, and help resolve integration problems           |
+| Ryan Vollbrecht     | `feature-testing` | Test the program, check all possible cases and help resolve integration problems    |
 | Ankur Basnet        | `feature-docs`    | Add Javadoc comments, generate the `docs/` folder, and review project documentation |
 
 
 Git Workflow
+
+Refer to the posting of "Assignment 1: Java program
+and collaboration" under the canvas modules for a better understanding of what your task is.
 
 Each team member should work on their assigned branch.
 
