@@ -31,12 +31,17 @@ public class Menu {
             System.out.println("3. Exit");
             System.out.print("Enter your choice: ");
 
+            while (!input.hasNextInt()) {
+                System.out.print("Invalid input. Please enter 1, 2, or 3: ");
+                input.nextLine();
+            }
+
             int choice = input.nextInt();
             input.nextLine();
 
             if (choice == 1) {
 
-                printInventory(itemNames, itemPrices, itemStocks);
+               GroceryManagementSystem.printInventory(itemNames, itemPrices, itemStocks);
 
             } else if (choice == 2) {
 
@@ -44,10 +49,15 @@ public class Menu {
                 String target = input.nextLine();
 
                 System.out.print("Enter amount to restock: ");
+                while (!input.hasNextInt()) {
+                    System.out.print("Invalid input. Please enter a whole number: ");
+                    input.nextLine();
+                }
+
                 int amount = input.nextInt();
                 input.nextLine();
 
-                restockItem(itemNames, itemStocks, target, amount);
+                GroceryManagementSystem.restockItem(itemNames, itemStocks, target, amount);
 
             } else if (choice == 3) {
 
