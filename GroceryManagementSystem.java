@@ -1,7 +1,25 @@
 import java.util.Scanner;
 
+/**
+ * Grocery management system that stores grocery item information
+ * using parallel arrays.
+ *
+ * The program allows the user to view the current inventory,
+ * restock an existing grocery item, and exit the program.
+ * The item name, price, and stock arrays use the same index
+ * to represent the same grocery item.
+ */
 public class GroceryManagementSystem {
 
+    /**
+     * Runs the Grocery Management System.
+     *
+     * This method creates the parallel arrays, adds the starting
+     * grocery inventory, and displays a menu that allows the user
+     * to view inventory, restock an item, or exit the program.
+     *
+     * @param args command-line arguments
+     */
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
@@ -59,6 +77,17 @@ public class GroceryManagementSystem {
         }
         input.close();
     }
+    /**
+     * Displays all grocery items currently stored in the inventory.
+     *
+     * The method loops through the parallel arrays and only
+     * displays array positions that contain an item name.
+     * Empty inventory positions are skipped.
+     *
+     * @param names the array containing grocery item names
+     * @param prices the array containing grocery item prices
+     * @param stocks the array containing the stock amount for each item
+     */
 
     public static void printInventory(String[] names, double[] prices, int[] stocks){
 
@@ -77,6 +106,20 @@ public class GroceryManagementSystem {
         }
     }
 
+    /**
+     * Restocks an existing grocery item by adding the specified
+     * amount to its current stock.
+     *
+     * The method searches the names array for the requested item.
+     * If the item is found, the amount is added to the matching
+     * position in the stocks array. If the item is not found,
+     * "Item not found." is displayed.
+     *
+     * @param names the array containing grocery item names
+     * @param stocks the array containing the stock amount for each item
+     * @param target the name of the grocery item to search for
+     * @param amount the amount to add to the item's current stock
+     */
     public static void restockItem(String[] names, int[] stocks, String target, int amount) {
 
         boolean found = false;
