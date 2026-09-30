@@ -80,6 +80,7 @@ Before submitting, verify that:
 * [ ] The `docs/` folder is included
 * [ ] All team members contributed through their own branches
 * [ ] All completed branches were merged into `main`
+* [ ] UML diagram is implemented
 * [ ] The Professor has been added as a repository collaborator
 
 ---
