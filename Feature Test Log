@@ -1,0 +1,13 @@
+Feature Testing log.
+
+Sep 27, 2026: 
+  2 errors found
+    - Error #1: The program will crash at Menu.java:36 when an invalid (non-integer) value is
+    entered after being prompted to enter a menu choice (1, 2, 3).
+    - Error #2. The program will crash at Menu.java:49 when an invalid (non-integer) value is
+    entered after being prompted to enter a restock amount.
+
+Sep 28, 2026:
+  - Bug fixes were pushed Sep 27, 2026 for Error #1 and Error #2.
+  - Program testing reveals Errors #1 and #2 were successfully fixed
+  - Further testing shows no new errors were found.
