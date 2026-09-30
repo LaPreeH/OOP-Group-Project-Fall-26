@@ -89,3 +89,9 @@ Before submitting, verify that:
 Only the GitHub repository URL will be submitted.
 
 Before submission, make sure the final version of the project is available on the `main` branch.
+
+
+
+
+<img width="1536" height="1024" alt="UML-Dia(2)" src="https://github.com/user-attachments/assets/8146a33b-e366-48bb-8fec-500f82fc2d48" />
+
