@@ -92,5 +92,10 @@ Before submission, make sure the final version of the project is available on th
 
 ---
 ## UML Diagram
+
+This UML diagram shows the overall structure of the GroceryManagementSystem program and how its main parts work together. The main class stores the grocery information using three parallel arrays: itemNames, itemPrices, and itemStocks. The main() method creates these arrays, adds the starting inventory, displays the menu, and reads the user’s input using a Scanner.
+
+The diagram also shows the two main functions used by the program. If the user chooses to view the inventory, main() calls printInventory(), which loops through the arrays and displays each item that is currently stored. If the user chooses to restock an item, main() calls restockItem(), which searches for the requested item and increases its stock amount. Overall, the diagram helps show how the menu, arrays, user input, and methods are connected within the program.
+
 <img width="1536" height="1024" alt="UML-Dia(2)" src="https://github.com/user-attachments/assets/8146a33b-e366-48bb-8fec-500f82fc2d48" />
 
