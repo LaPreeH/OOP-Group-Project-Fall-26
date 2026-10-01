@@ -4,19 +4,33 @@ import java.util.Scanner;
  * Grocery management system that stores grocery item information
  * using parallel arrays.
  *
- * The program allows the user to view the current inventory,
+ * <p>The program allows the user to view the current inventory,
  * restock an existing grocery item, and exit the program.
  * The item name, price, and stock arrays use the same index
- * to represent the same grocery item.
+ * to represent the same grocery item.</p>
+ *
+ * @author LaPree Habbit
+ * @author Aayusha Adhikari
+ * @author Zigme Tanzing Lama
+ * @author Ryan Vollbrecht
+ * @author Ankur Basnet
+ * @version 1.0
  */
 public class GroceryManagementSystem {
 
     /**
+     * Private constructor so no objects of this class are created.
+     * All methods in this class are static.
+     */
+    private GroceryManagementSystem() {
+    }
+
+    /**
      * Runs the Grocery Management System.
      *
-     * This method creates the parallel arrays, adds the starting
+     * <p>This method creates the parallel arrays, adds the starting
      * grocery inventory, and displays a menu that allows the user
-     * to view inventory, restock an item, or exit the program.
+     * to view inventory, restock an item, or exit the program.</p>
      *
      * @param args command-line arguments
      */
@@ -90,15 +104,14 @@ public class GroceryManagementSystem {
     /**
      * Displays all grocery items currently stored in the inventory.
      *
-     * The method loops through the parallel arrays and only
+     * <p>The method loops through the parallel arrays and only
      * displays array positions that contain an item name.
-     * Empty inventory positions are skipped.
+     * Empty inventory positions are skipped.</p>
      *
      * @param names the array containing grocery item names
      * @param prices the array containing grocery item prices
      * @param stocks the array containing the stock amount for each item
      */
-
     public static void printInventory(String[] names, double[] prices, int[] stocks){
 
         System.out.println("--------- Grocery Inventory ---------");
@@ -120,10 +133,10 @@ public class GroceryManagementSystem {
      * Restocks an existing grocery item by adding the specified
      * amount to its current stock.
      *
-     * The method searches the names array for the requested item.
+     * <p>The method searches the names array for the requested item.
      * If the item is found, the amount is added to the matching
      * position in the stocks array. If the item is not found,
-     * "Item not found." is displayed.
+     * "Item not found." is displayed.</p>
      *
      * @param names the array containing grocery item names
      * @param stocks the array containing the stock amount for each item
