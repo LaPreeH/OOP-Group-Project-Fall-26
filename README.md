@@ -116,3 +116,4 @@ The diagram also shows the two main functions used by the program. If the user c
 
 <img width="1536" height="1024" alt="UML-Dia(2)" src="https://github.com/user-attachments/assets/8146a33b-e366-48bb-8fec-500f82fc2d48" />
 
+<img width="1536" height="1024" alt="Screenshot of running program" src="Screenshot.png" />
