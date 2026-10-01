@@ -69,21 +69,37 @@ Testing Checklist
 
 Before submitting, verify that:
 
-* [ ] The program compiles without errors
-* [ ] Inventory displays correctly
-* [ ] Empty array slots are not displayed
-* [ ] Existing items can be restocked
-* [ ] `"Item not found."` appears for an invalid item
-* [ ] The menu repeats until the user selects Exit
-* [ ] All three parallel arrays remain synchronized
-* [ ] Javadoc comments are included
-* [ ] The `docs/` folder is included
+* [X] The program compiles without errors
+* [X] Inventory displays correctly
+* [X] Empty array slots are not displayed
+* [X] Existing items can be restocked
+* [X] `"Item not found."` appears for an invalid item
+* [X] The menu repeats until the user selects Exit
+* [X] All three parallel arrays remain synchronized
+* [X] Javadoc comments are included
+* [X] The `docs/` folder is included
 * [ ] All team members contributed through their own branches
 * [ ] All completed branches were merged into `main`
-* [ ] UML diagram is implemented
+* [X] UML diagram is implemented
 * [ ] The Professor has been added as a repository collaborator
 
 ---
+## How to Compile and Run
+
+1. Open a terminal in the project folder.
+2. Compile: `javac GroceryManagementSystem.java`
+3. Run: `java GroceryManagementSystem`
+4. Enter 1 to view inventory, 2 to restock an item, or 3 to exit.
+
+## Documentation
+
+The Javadoc documentation is in the `docs/` folder. Open `docs/index.html` in a browser to view it.
+
+To regenerate it after code changes:
+`javadoc -author -version -d docs GroceryManagementSystem.java`
+
+---
+
 
 ## Final Submission
 
